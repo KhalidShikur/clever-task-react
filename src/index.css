@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; }
+body {
+  @apply bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 font-sans;
+}
+
+.card { @apply bg-white dark:bg-slate-800 rounded-lg shadow-sm border dark:border-slate-700; }
+.select-none { user-select: none; }
+
